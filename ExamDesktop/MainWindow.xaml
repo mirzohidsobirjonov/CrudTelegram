@@ -1,0 +1,84 @@
+﻿<Window x:Class="ExamDesktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamDesktop"
+        xmlns:md="http://materialdesigninxaml.net/winfx/xaml/themes" xmlns:controls="clr-namespace:ExamDesktop.UI.Controllers"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="MainWindow" Height="600" Width="800">
+
+    <Grid Background="#0E1621">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid Grid.Column="0" Background="#17212B">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <TextBox Name="SearchTxt" TextChanged="SearchTxt_TextChanged" Margin="8" Background="#242F3D"
+                         md:TextFieldAssist.TextFieldCornerRadius="3" md:HintAssist.Hint="Search" BorderThickness="0"
+                         Foreground="Snow" Padding="8" md:TextFieldAssist.UnderlineBrush="Transparent"/>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Visible">
+                    <ItemsControl Name="StudentsList">
+                        
+                    </ItemsControl>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Button Width="120" Height="60" Grid.Column="0" md:ButtonAssist.CornerRadius="5" 
+                        Background="#066163" BorderThickness="0" Click="Button_Click">
+                    <DockPanel>
+                        <md:PackIcon Width="35" Height="30" Kind="ContentSaveAllOutline"/>
+                        <TextBlock Text="Save" FontSize="15" Margin="0 5 5 0"/>
+                    </DockPanel>
+                </Button>
+
+                <Button Width="120" Height="60" Grid.Column="1" md:ButtonAssist.CornerRadius="5"
+                        Background="#066163" BorderThickness="0" Click="Button_Click_2">
+                    <DockPanel>
+                        <md:PackIcon Width="35" Height="30" Kind="Delete"/>
+                        <TextBlock Text="Delete" FontSize="15" Margin="0 5 0 0"/>
+                    </DockPanel>
+                </Button>
+
+                <Button Width="120" Height="60" Grid.Column="2" md:ButtonAssist.CornerRadius="5"
+                        Background="#066163" BorderThickness="0" Click="Button_Click_1">
+                    <DockPanel>
+                        <md:PackIcon Width="35" Height="30" Kind="Add"/>
+                        <TextBlock Text="Add" FontSize="15" Margin="0 5 10 0"/>
+                    </DockPanel>
+                </Button>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Frame x:Name="pages" NavigationUIVisibility="Hidden"/>
+            </Grid>
+        </Grid>
+        
+    </Grid>
+</Window>

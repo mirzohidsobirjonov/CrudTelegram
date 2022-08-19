@@ -1,0 +1,17 @@
+D:\Exam\Exam.Data\bin\Debug\net6.0\Exam.Data.deps.json
+D:\Exam\Exam.Data\bin\Debug\net6.0\Exam.Data.dll
+D:\Exam\Exam.Data\bin\Debug\net6.0\Exam.Data.pdb
+D:\Exam\Exam.Data\bin\Debug\net6.0\Exam.Domain.dll
+D:\Exam\Exam.Data\bin\Debug\net6.0\Exam.Domain.pdb
+D:\Exam\Exam.Data\obj\Debug\net6.0\Exam.Data.csproj.AssemblyReference.cache
+D:\Exam\Exam.Data\obj\Debug\net6.0\Exam.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Exam\Exam.Data\obj\Debug\net6.0\Exam.Data.AssemblyInfoInputs.cache
+D:\Exam\Exam.Data\obj\Debug\net6.0\Exam.Data.AssemblyInfo.cs
+D:\Exam\Exam.Data\obj\Debug\net6.0\Exam.Data.csproj.CoreCompileInputs.cache
+D:\Exam\Exam.Data\obj\Debug\net6.0\Exam.Data.csproj.CopyComplete
+D:\Exam\Exam.Data\obj\Debug\net6.0\Exam.Data.dll
+D:\Exam\Exam.Data\obj\Debug\net6.0\refint\Exam.Data.dll
+D:\Exam\Exam.Data\obj\Debug\net6.0\Exam.Data.pdb
+D:\Exam\Exam.Data\obj\Debug\net6.0\ref\Exam.Data.dll
+D:\Exam\Exam.Data\bin\Debug\net6.0\Exam.Data.runtimeconfig.json
+D:\Exam\Exam.Data\obj\Debug\net6.0\Exam.Data.genruntimeconfig.cache

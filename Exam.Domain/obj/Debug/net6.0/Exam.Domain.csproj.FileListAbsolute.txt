@@ -1,0 +1,12 @@
+D:\Exam\Exam.Domain\bin\Debug\net6.0\Exam.Domain.deps.json
+D:\Exam\Exam.Domain\bin\Debug\net6.0\Exam.Domain.dll
+D:\Exam\Exam.Domain\bin\Debug\net6.0\Exam.Domain.pdb
+D:\Exam\Exam.Domain\obj\Debug\net6.0\Exam.Domain.csproj.AssemblyReference.cache
+D:\Exam\Exam.Domain\obj\Debug\net6.0\Exam.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Exam\Exam.Domain\obj\Debug\net6.0\Exam.Domain.AssemblyInfoInputs.cache
+D:\Exam\Exam.Domain\obj\Debug\net6.0\Exam.Domain.AssemblyInfo.cs
+D:\Exam\Exam.Domain\obj\Debug\net6.0\Exam.Domain.csproj.CoreCompileInputs.cache
+D:\Exam\Exam.Domain\obj\Debug\net6.0\Exam.Domain.dll
+D:\Exam\Exam.Domain\obj\Debug\net6.0\refint\Exam.Domain.dll
+D:\Exam\Exam.Domain\obj\Debug\net6.0\Exam.Domain.pdb
+D:\Exam\Exam.Domain\obj\Debug\net6.0\ref\Exam.Domain.dll
